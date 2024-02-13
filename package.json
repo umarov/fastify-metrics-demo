@@ -1,0 +1,23 @@
+{
+  "name": "fastify-metrics-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Demo to show service metrics on a separate port on the same server",
+  "main": "src/main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muzafar Umarov <umarov@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.2",
+    "@tsconfig/strictest": "^2.0.3",
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "fastify": "^4.26.1",
+    "fastify-metrics": "^10.6.0"
+  }
+}
