@@ -5,7 +5,7 @@
   "description": "Demo to show service metrics on a separate port on the same server",
   "main": "src/main.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsx src/main.ts"
   },
   "author": "Muzafar Umarov <umarov@gmail.com>",
   "license": "MIT",
